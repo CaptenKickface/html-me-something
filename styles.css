@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3AAFA9;
+    color: #17252A;
+    font-family: serif;
+ }
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+.nav {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin-right: 15%;    
+}
+a {
+    margin: 15px;
+    color:#FEFFFF;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover {
+    color:grey;
+}
+h1 {
+    font-size: 70px;
+    color:#DEF2F1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 200px 300px 50px 300px
+  }
+h2 {
+    font-size: 50px;
+    color: #DEF2F1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth; 
+}
+.homeSpace, .schoolSpace, .rootsSpace, .ironySpace, .japaneseSpace, .creedSpace, .friendlySpace {
+    line-height: 50px;
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 1050px;
+}
+.schoolSpace {
+    background-color: #2B7A78
+}
+.ironySpace {
+    background-color: #2B7A78
+}
+.creedSpace {
+    background-color: #2B7A78
+}
+
+img {
+    max-width: 700px;
+    max-height: 600px;
+    
+}
+.allText {
+    width: 65%;
+    height: 80%;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 24px;
+    line-height: 50px;
+}
+.picRight {
+    float:right;
+    margin: 20px 0 20px 20px;
+}
+.picLeft {
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+.picCenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-bottom: 300px;
+}
+.copyR {
+    font-size: 10px;
+    text-align: right;
+}
